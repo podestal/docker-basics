@@ -6,5 +6,5 @@ COPY package*.json .
 RUN npm install
 COPY . .
 ENV API_URL = http://api.com
-EXPOSE 5173
+EXPOSE 8080
 CMD ["npm", "run", "dev"]
